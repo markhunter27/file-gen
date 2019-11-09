@@ -1,0 +1,14 @@
+{
+  "name": "spay-file-generator",
+  "version": "0.0.1",
+  "description": "spay test file generator",
+  "main": "app.js",
+  "scripts": {
+    "generate": "node app.js",
+    "test": "test"
+  },
+  "author": "spay dev team",
+  "dependencies": {
+
+  }
+}
