@@ -23,7 +23,7 @@ const fixtureColumnsDandA = {
 const retrieveFixtureTemplate = (fixtureNumber) => {
     if(fixtures.hasOwnProperty(fixtureNumber)){
         const fixtureDefn = fixtures[fixtureNumber];
-        switch (fixtureDefn.type){
+        switch (fixtureDefn.type.trim().toLowerCase()){
             case 'joint':
                 return [fixtureDefn.contentMain, fixtureDefn.contentPartner];
             default:

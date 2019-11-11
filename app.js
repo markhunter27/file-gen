@@ -3,7 +3,7 @@ const { fixturePlan } = require('./src/fixturePlan.js');
 const { createFixtureFromPlan } = require('./src/fixtureFactory.js');
 const { shuffleArray } = require('./src/util/arrayShuffler.js');
 
-const fixtureArray = createFixtureFromPlan(fixturePlan, 2e6);
+const fixtureArray = createFixtureFromPlan(fixturePlan, 20);
 
 console.log("Constructed in memory fixture length", fixtureArray.length);
 
